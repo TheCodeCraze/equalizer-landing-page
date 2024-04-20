@@ -28,6 +28,43 @@
   border-radius: 12px;
 }
 
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fcfaf9;
+  line-height: 52px;
+}
+
+.description {
+  margin: 22px 0 39px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fcfaf9;
+  line-height: 34px;
+}
+
+.price {
+  margin-bottom: 46px;
+  color: #fcfaf9;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.amount {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+}
+
+.iteration {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
 .cta-ios,
 .cta-android {
   width: 100%;
@@ -50,6 +87,7 @@
 }
 
 .cta-ios {
+  margin-bottom: 16px;
   background: #191826;
   color: #fcfaf9;
 }
@@ -59,7 +97,6 @@
 }
 
 .cta-android {
-  margin-top: 16px;
   background: #fcfaf9;
   color: #191826;
 }

@@ -15,9 +15,10 @@ export const Features = () => {
           spatial audio. Take your listening experience to a whole new level and
           access all our incredible features!
         </p>
-        <p className={styles.price}>
-          <span>$4</span>/ month
-        </p>
+        <div className={styles.price}>
+          <p className={styles.amount}>$4</p>
+          <p className={styles.iteration}>/ month</p>
+        </div>
         <button className={styles["cta-ios"]}>
           <img
             src="/icon-apple.svg"

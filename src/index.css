@@ -8,6 +8,7 @@
 
 body {
   width: 100%;
+  max-width: 1440px;
   padding: 61.99px 165px 91px;
   font-family: "IBM Plex Sans", sans-serif;
 }
