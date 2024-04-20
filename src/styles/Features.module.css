@@ -1,0 +1,69 @@
+.features {
+  width: 100%;
+  height: 600px;
+  background: url("/bg-pattern-2.svg") top -40px left 336px no-repeat #191826;
+  margin: 213px 0 202px;
+  position: relative;
+  border-radius: 12px;
+}
+
+.image {
+  width: 312px;
+  height: 642px;
+  position: absolute;
+  top: -213px;
+  left: 102px;
+}
+
+.text {
+  width: 446px;
+  height: 625px;
+  position: absolute;
+  top: 90px;
+  right: 95px;
+  background: #fa7453;
+  padding: 58px 59px 48px 54px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.cta-ios,
+.cta-android {
+  width: 100%;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.cta-ios {
+  background: #191826;
+  color: #fcfaf9;
+}
+
+.cta-ios:hover {
+  background: #66e2dc;
+}
+
+.cta-android {
+  margin-top: 16px;
+  background: #fcfaf9;
+  color: #191826;
+}
+
+.cta-android:hover {
+  background: #ffb964;
+}

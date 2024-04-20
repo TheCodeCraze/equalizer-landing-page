@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 61.99px 165px 91px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
