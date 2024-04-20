@@ -10,8 +10,7 @@ body {
   width: 100%;
   max-width: 1440px;
   padding: 61.99px 165px 91px;
-  background: url("/bg-pattern-1.svg") top -40px right 0px no-repeat,
-    url("/bg-main-desktop.png") top -112px left -146px no-repeat;
-  background-size: auto, 1613px 1758px;
+  background: url("/bg-pattern-1.svg") top -40px right 0 no-repeat,
+    url("/desktop-bg.png") top 0 left 0 no-repeat;
   font-family: "IBM Plex Sans", sans-serif;
 }
