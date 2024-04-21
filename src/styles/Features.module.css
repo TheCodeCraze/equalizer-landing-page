@@ -1,8 +1,9 @@
 .features {
   width: 100%;
+  max-width: 1110px;
   height: 600px;
   background: url("/bg-pattern-2.svg") top -40px left 336px no-repeat #191826;
-  margin: 213px 0 202px;
+  margin: 213px auto 202px;
   position: relative;
   border-radius: 12px;
 }
@@ -103,4 +104,102 @@
 
 .cta-android:hover {
   background: #ffb964;
+}
+
+@media screen and (max-width: 925px) {
+  .features {
+    width: 696px;
+    background: url("/bg-pattern-2.svg") top -31px left 229px no-repeat #191826;
+    background-size: 280px 420px;
+    margin: 138px auto 183px;
+  }
+
+  .image {
+    width: 270.21px;
+    height: 556px;
+    top: -138px;
+    left: 64px;
+  }
+
+  .text {
+    width: 399px;
+    height: 546px;
+    top: 150px;
+    right: 58px;
+    padding: 48px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .description {
+    margin: 12px 0 36px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .price {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .features {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .features {
+    background: url("/bg-pattern-2.svg") top 0px left 50% no-repeat #191826;
+    margin: 224px 0 390px;
+  }
+
+  .image {
+    top: -224px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .text {
+    top: auto;
+    bottom: -326px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .features {
+    background-size: 280px 420px;
+    margin: 98px 0 390px;
+  }
+
+  .image {
+    width: 208.97px;
+    height: 430px;
+    top: -98px;
+  }
+
+  .text {
+    width: 375px;
+    padding: 48px 37px 48px 36px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .description {
+    margin: 12px 0 36px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .price {
+    margin-bottom: 32px;
+  }
 }

@@ -3,7 +3,9 @@ import styles from "../styles/Footer.module.css";
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <img src="/logo.svg" alt="Home" className={styles.logo} />
+      <div className={styles.logo}>
+        <img src="/logo.svg" alt="Home" className={styles.image} />
+      </div>
       <div className={styles.text}>
         <p className={styles.copyright}>All rights reserved © Equalizer 2021</p>
         <p className={styles["contact-info"]}>
