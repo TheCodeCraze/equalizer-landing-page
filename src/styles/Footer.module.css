@@ -16,6 +16,7 @@
 
 .text {
   width: 366px;
+  margin-right: 224px;
 }
 
 .copyright,
@@ -50,6 +51,12 @@
 
 .icon:hover {
   fill: #fa7453;
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 925px) {
